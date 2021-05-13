@@ -1,0 +1,113 @@
+#card-profile {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+#card-header {
+    position: relative;
+}
+#card-header > figure > img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+#victor-img {
+    position: absolute;
+    bottom: -50px;
+    right: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#victor-img > img {
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+#card-body {
+    background-color: ivory;
+    width: 100%;
+}
+#card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-stats {
+    color: hsl(229, 23%, 23%);
+    font-family: "kumbh Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-top: 40px;
+    vertical-align: middle;
+}
+#age {
+    color: hsl(227, 10%, 46%);
+    font-family: "kumbh Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding-top: 40px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+#city {
+    height: 40px;
+    border-bottom: 0.2px solid gainsboro;
+}
+#city > p {
+    color: darkgray;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+#card-footer {
+    background-color: ivory;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.stats-footer > .name-stats {
+    margin: 0;
+}
+.stats-footer > .stats-tags {
+    color: darkgray;
+    font-size: 10px;
+    font-family: "Kumbh Sans", sans-serif;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+img {
+    vertical-align: middle;
+}
+figure {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 60%, 70%;
+    background-position: left -270px top -470px, right -200px bottom -900px;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
